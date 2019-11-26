@@ -30,7 +30,7 @@
             <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="88.0" prefHeight="30.0" prefWidth="177.0" text="Local" GridPane.rowIndex="3" />
          </children>
       </GridPane>
-      <Button fx:id="OKButton" layoutX="182.0" layoutY="315.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="86.0" text="OK" />
-      <Button fx:id="CancelButton" layoutX="354.0" layoutY="315.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="86.0" text="Cancelar" />
+      <Button fx:id="OKButton" onAction="#OKclique" layoutX="182.0" layoutY="315.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="86.0" text="OK" />
+      <Button fx:id="CancelButton" onAction="#Cancelclique" layoutX="354.0" layoutY="315.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="86.0" text="Cancelar" />
    </children>
 </AnchorPane>
